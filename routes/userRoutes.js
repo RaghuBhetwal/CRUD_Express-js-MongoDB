@@ -16,11 +16,9 @@ router.post("/createUser", createUser);
 router.get("/getusers", getUsers);
 
 // Route for editing/updating a user by ID (PUT request)
-// Note: I corrected the route path by adding a forward slash (/) before "edituser/:id"
 router.put("/edituser/:id", editUser);
 
 // Route for deleting a user by ID (DELETE request)
 router.delete("/deleteuser/:id", deleteUser);
 
-// Exporting the router to be used in other parts of your application
 module.exports = router;
