@@ -40,10 +40,10 @@ Start the Server:
 
 ### Method and API Routes
 
-    - **POST /createUser:** Create a new user.
-    - **GET /getusers:** Retrieve all users.
-    - **PUT /edituser/:id:** Update a user by ID.
-    - **DELETE /deleteuser/:id:** Delete a user by ID.
+    POST /createUser: Create a new user.
+    GET /getusers: Retrieve all users.
+    PUT /edituser/:id: Update a user by ID.
+    DELETE /deleteuser/:id: Delete a user by ID.
 
 ### Contributing
 
